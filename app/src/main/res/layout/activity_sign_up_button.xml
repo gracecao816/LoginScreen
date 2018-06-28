@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/loginscreenbackground"
+    tools:context=".LoginActivity">
+
+    <EditText
+        android:id="@+id/etEmailText"
+        android:layout_width="337dp"
+        android:layout_height="43dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="114dp"
+        android:background="@drawable/my_button_format"
+        android:ems="10"
+        android:inputType="textMultiLine"
+        android:lineSpacingExtra="8sp"
+        android:text="Email Address"
+        android:textAlignment="viewStart"
+        android:textAllCaps="true"
+        android:textColor="#A9A9A9"
+        android:textSize="24sp"
+        android:visibility="visible" />
+
+    <Button
+        android:id="@+id/btnSubmit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/etEmailText"
+        android:layout_below="@+id/etEmailText"
+        android:text="Save" />
+</RelativeLayout>
